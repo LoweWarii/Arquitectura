@@ -62,7 +62,7 @@ try:
                 print(f" Error con {usuario}/{contrasena}: {e}")
 
 except KeyboardInterrupt:
-    print("\n⏹Interrumpt")
+    print("\n Interrumpt")
 
 # Resultados finales
 
@@ -82,4 +82,5 @@ else:
 # Estadísticas de rendimiento
 if intentos > 0:
     intentos_por_segundo = intentos / tiempo_total
+
     print(f" Velocidad: {intentos_por_segundo:.2f} intentos/segundo")
